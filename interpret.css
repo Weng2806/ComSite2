@@ -1,0 +1,56 @@
+body {
+    margin: auto;
+    display: flex;
+    flex-direction: column;  
+    background-color: black;
+    overflow-x:hidden;
+}
+img {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 800px;
+    left: 0em;
+    top: -0em;
+    position: relative;
+    z-index: -1;
+}
+a {
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top: -2.5em;
+    text-decoration: none;
+    z-index: 1;
+}
+.c {
+    left: -18em;
+    top: -1.4em;
+    color: aliceblue;
+}
+.d {
+    left: 21em;
+    color: aliceblue;
+}
+a:link, a:visited {
+    padding: 0;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    animation: pat 1s infinite;
+    animation-delay: 0ms;
+}
+@keyframes pat {
+    0% {
+        text-shadow: 0 0 10px rgba(102, 69, 69, 0.5);
+    }
+    50% {
+        text-shadow: 0 0 30px rgb(107, 75, 75);
+    }
+    100% {
+        text-shadow: 0 0 10px rgba(112, 77, 77, 0.5);
+    }
+
+}

@@ -1,0 +1,48 @@
+* {
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+}
+a {
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    z-index: 2;
+    top: -10em;
+    left: 18em;
+    text-shadow: 3px 2px 5px  rgb(216, 204, 221);
+}
+a:link, a:visited {
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    animation: pat 1s infinite;
+    animation-delay: 0ms;
+}
+
+@keyframes pat {
+    0% {
+        text-shadow: 3px 2px 5px  rgb(216, 204, 221);
+    }
+    50% {
+        text-shadow: 3px 2px 20px  rgb(117, 117, 117);
+    }
+    100% {
+        text-shadow: 3px 2px 5px  rgb(216, 204, 221);
+    }
+}
+
+img {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 900px;
+    left: -4em;
+    top: -8em;
+    position: relative;
+    z-index: -1;
+}
